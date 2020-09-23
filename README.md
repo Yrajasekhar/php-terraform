@@ -13,3 +13,13 @@
 5) Fill the form with the details and submit.
 6) Validate the details you filled and click on Launch indtance(s) button.
 7) cmd will popup and gives you all the details and Launches the VM's for you.
+
+Flow chart:
+
+```mermaid
+graph LR
+A[index.php] -- passing details --> B((writer.php))
+B --> C{project dir}
+C -- creates .tf file --> D[instance.tf]
+C -- creates .php file --> E[instance.tf]
+```
