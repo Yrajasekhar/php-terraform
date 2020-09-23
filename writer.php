@@ -17,8 +17,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name_tag = $_POST["Name_tag"];
 
     $instance = 'provider "aws" {
-        access_key = "AKIA4QRUYN5IH3Y4V2ED"
-        secret_key = "EUQT0zITsB9yKv5qA8PcAnkQHXQgbosRBpXXB1bf"
+        access_key = "your-access-key"
+        secret_key = "your-secret-key"
         region = "us-east-1"
       }
       
