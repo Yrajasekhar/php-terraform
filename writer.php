@@ -1,7 +1,5 @@
 <?php
-
 //variables
-$comment = "HI";
 $dir = "project1";
 $file_to_write = 'instance.tf';
 $phpcmd = "<?php
@@ -19,8 +17,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name_tag = $_POST["Name_tag"];
 
     $instance = 'provider "aws" {
-        access_key = "AKIA4QRUYN5ICADUITEW"
-        secret_key = "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"
+        access_key = "AKIA4QRUYN5IH3Y4V2ED"
+        secret_key = "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"
         region = "us-east-1"
       }
       
